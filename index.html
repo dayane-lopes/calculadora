@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Calculadora</h1>
+    </header>
+    <section>
+        <div id="visor">
+            <p></p>
+        </div>
+
+        <div>
+         
+            <input type="button" value="7" class="botao" onclick="calcNum('7')">
+            <input type="button" value="8" class="botao" onclick="calcNum('8')"> 
+            <input type="button" value="9" class="botao" onclick="calcNum('9')">
+            <input type="button" value="c" class="botao" onclick="limpar()">
+            <br>
+            <input type="button" value="4" class="botao" onclick="calcNum('4')"> 
+            <input type="button" value="5" class="botao" onclick="calcNum('5')">
+            <input type="button" value="6" class="botao" onclick="calcNum('6')">
+            <input type="button" value="x" class="botao" onclick="calcNum('*')">
+            <br>
+            <input type="button" value="1" class="botao" onclick="calcNum('1')">
+            <input type="button" value="2" class="botao" onclick="calcNum('2')">
+            <input type="button" value="3" class="botao" onclick="calcNum('3')">
+            <input type="button" value="/" class="botao" onclick="calcNum('/')">
+            <br>
+            <input type="button" value="0" class="botao" onclick="calcNum('0')">
+            <input type="button" value="-" class="botao" onclick="calcNum('-')">
+            <input type="button" value="+" class="botao" onclick="calcNum('+')">
+            <input type="button" value="=" class="botao" onclick="calcular()">
+            
+        </div>
+
+    </section>
+    <footer>
+        <p> by Dayane Lopes</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
